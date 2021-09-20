@@ -9,6 +9,10 @@ body{
   margin: auto;
 }
 
+section{
+  margin-bottom: 5%
+}
+
 .container{
   height: 900px;
   text-align: center;
@@ -72,6 +76,51 @@ img{
 }
 
 .c-1:hover{
+  visibility: hidden;
+}
+
+.d-1{
+  position: relative;
+  z-index: 30;
+}
+
+.d-2{
+  position: absolute;
+  left: 0;
+  z-index: 20;
+}
+
+.d-1:hover{
+  visibility: hidden;
+}
+
+.e-1{
+  position: relative;
+  z-index: 30;
+}
+
+.e-2{
+  position: absolute;
+  left: 0;
+  z-index: 20;
+}
+
+.e-1:hover{
+  visibility: hidden;
+}
+
+.f-1{
+  position: relative;
+  z-index: 30;
+}
+
+.f-2{
+  position: absolute;
+  left: 0;
+  z-index: 20;
+}
+
+.f-1:hover{
   visibility: hidden;
 }
 
