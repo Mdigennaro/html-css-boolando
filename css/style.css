@@ -7,6 +7,8 @@
 body{
   width: 70%;
   margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
 }
 
 section{
@@ -14,9 +16,8 @@ section{
 }
 
 .container{
-  height: 900px;
-  text-align: center;
   margin: 2%;
+  text-align: center;
 }
 
 .box{
@@ -26,6 +27,61 @@ section{
   margin: 1%;
   display: inline-block;
   cursor: pointer;
+}
+
+.cuore{
+  position: absolute;
+  width: 10%;
+  top: 8%;
+  right: 0;
+  visibility: visible;
+  z-index: 40;
+  font-size: x-large;
+  background-color: white;
+}
+
+.sconto{
+  background-color: #eb0037;
+  color: white;
+  padding: 1%;
+  position: absolute;
+  left: 0;
+  top: 90%;
+  z-index: 40;
+}
+
+.sostenibilità{
+  background-color: #00875a;
+  color: white;
+  position: absolute;
+  padding: 1%;
+  top: 90%;
+  left: 15%;
+  z-index: 40;
+}
+
+.sostenibilità2{
+  background-color: #00875a;
+  color: white;
+  position: absolute;
+  padding: 1%;
+  top: 90%;
+  z-index: 40;
+}
+
+.descrizione{
+  height: 10%;
+  width: 29%;
+  margin-left: 4%;
+  text-align: left;
+}
+
+.rosso{
+  color: red;
+}
+
+.sbarra{
+  text-decoration: line-through;
 }
 
 img{
